@@ -1,0 +1,95 @@
+.background-imageup {
+    background: url("image/gardenia-royalty-free-image-1580854928.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background {
+    width: 100%;
+    border-bottom: 333px solid #032451;
+    border-right: 53px solid transparent;
+    height: 0;
+}
+
+
+.titlebox {
+    position: absolute;
+    width: 51%;
+    left: 228px;
+    bottom: 46px;
+}
+
+.titlebox h2 {
+    font-size: 28px;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.titlebox p {
+    color: #cacaca;
+    font-size: 16px;
+}
+.btn a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+button.btn.btn-warning {
+    width: 136px;
+    box-shadow: 10px 10px 10px whire;
+    box-shadow: 0px 3px 2px white;
+}
+
+.borde {
+    border: 7px solid #b5b743!important;
+}
+
+.background-imagedown {
+    background: url("image/pexels-photo-5191375.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background1 {
+
+    width: 100%;
+    border-bottom: 340px solid #00ccdd;
+    border-left: -39px solid transparent;
+    border-right: 53px solid transparent;
+    height: 0;
+    margin-left: 526px;
+    transform: rotate(-180deg);
+}
+
+
+.titlebox1 {
+    margin-top: 76px;
+    position: absolute;
+    width: 64%;
+    left: 202px;
+    bottom: -260px;
+    transform: rotate(180deg);
+}
+
+.titlebox1 h2 {
+    font-size: 28px;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.titlebox1 p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+button.btn.btn-warning {
+    width: 136px;
+    box-shadow: 10px 10px 10px whire;
+    box-shadow: 0px 3px 2px white;
+}
