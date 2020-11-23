@@ -1,0 +1,25 @@
+/* .box{width:200px; 
+    height:200px;
+     background:green;}<div class="box"></div>}
+
+     <button class="btn btn-primary">Hide me </button>
+     /* <button class="btn btn-warning dada">Show me</button>} */
+
+
+ input{border:none;
+      background:#ccc;
+       outline:none;
+    margin-left:10px;padding-left:10px;}
+
+      button {border:none;
+        outline:none;
+        margin-left:10px;}      
+
+
+
+   h1{color:rgb(192, 120, 120);
+         background:#ccc;
+         width:500px;
+        text-transform: capitalize;
+    font-size:20px;
+     text-align:center;}     
