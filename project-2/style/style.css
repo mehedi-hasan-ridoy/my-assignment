@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.target{
+    background-image: url("../image/preview24.png");
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding-top: 17px;
+}
+
+li.nav-item {
+    margin-right: 15px;
+    position: relative;
+}
+
+.nav-link {
+    text-transform: capitalize;
+    color: white !important;
+    font-size: 14px;
+
+
+}
+
+.nav-item:hover a {
+    color: #fdcc42 !important;
+    transition: 0.3s;
+}
+
+
+.nav-link:hover::before {
+    content: "";
+    background: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    right: 100%;
+    top: 15%;
+    box-shadow: 4px 3px 1px white;
+    transform: translate(-50%, 50%);
+}
+
+
+li#search {
+    margin-top: 11px;
+    margin-left: 12px;
+
+}
+
+.nav-item {
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    color: white !important;
+}
+
+img.image {
+    width: 127px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.title-box {
+    margin-left: 22px;
+    width: 51%;
+    margin-top: 88px;
+}
+
+.title-box h1 {
+    color: #cc8110;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.title-box p {
+    color: white;
+    line-height: 29px;
+    width: 93%;
+    padding-bottom: 17px;
+}
+
+button.btn {
+    margin-bottom: 119px;
+}
+
+button.btn a {
+    color: #ffc800;
+    text-transform: uppercase;
+}
+
+button.btn a i {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.btn:hover a {
+    color: white !important;
+    text-decoration: none;
+}
+
+@media(max-width:326px){
+
+    button.btn {
+        width:100%;
+        margin-bottom: 119px;
+    }
+
+}
