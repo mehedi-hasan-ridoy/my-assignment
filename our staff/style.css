@@ -1,0 +1,143 @@
+
+
+.our-staf {
+    padding: 50px 20px;
+}
+.title-box {
+    width: 500px!important;
+    overflow: hidden;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.title-box h2 {
+    color: black;
+    text-transform: uppercase;
+    width: 169px;
+}
+
+.title-box h2::after {
+    content: "";
+    background: #1cb4cc;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    left: 4%;
+    bottom: 65%;
+    transform: translate(-50%,50%);
+}
+
+.title-box p {
+    width: 378px;
+    color: black;
+    padding-top: 12px;
+}
+
+img.img-fluid.rounded-circle {
+    width: 189px!important;
+    height: 191px;
+}
+
+.singlebox-title h2 {
+    color: #675656;
+    text-transform: uppercase;
+    font-size: 27px;
+    margin-top: 32px;
+}
+
+p.cata {
+    color: #868686;
+    font-size: 14px;
+}
+
+.singlebox-title p {
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 25px;
+}
+ span{background: rgb(205, 219, 223);
+    padding: 1px 17px;
+    padding-bottom:5px;
+   
+     border-radius:5px;}
+
+button.owl-next{
+    font-size: 26px;
+    position: absolute;
+    left: 98%;
+    top: -30%;
+    outline: none!important;
+}
+
+button.owl-prev {
+    position: absolute;
+    left: 92%;
+    top: -30%;
+    outline: none!important;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    display: none!important;
+}
+
+span:hover {
+    background: #049c67!important;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+@media(max-width:991px){
+
+
+    button.owl-next{
+        font-size: 26px;
+        position: absolute;
+        left: 50%;
+        top: 110%;
+        outline: none!important;
+    }
+    button.owl-prev{
+        font-size: 26px;
+        position: absolute;
+        left: 41%;
+        top: 110%;
+        outline: none!important;
+    }
+
+
+
+
+
+}
+
+
+@media(max-width:575px){
+
+    .singlebox-staff{width:70%!important;margin:auto!important;}
+    .title-box {
+        width: 500px!important;
+        overflow: hidden;
+        margin-bottom: 45px;
+        position: relative;
+      
+    }
+    button.owl-next{
+        font-size: 26px;
+        position: absolute;
+        left: 51%;
+        top: 110%;
+        outline: none!important;
+    }
+    button.owl-prev{
+        font-size: 26px;
+        position: absolute;
+        left: 39%;
+        top: 110%;
+        outline: none!important;
+    }
+    
+
+}
