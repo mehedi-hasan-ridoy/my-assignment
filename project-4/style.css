@@ -1,0 +1,118 @@
+
+section.happy-client {
+    padding: 40px 0px;
+    background: #534747;
+}
+.container {
+    padding: 0px 0px;
+}
+.titlebox {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.titlebox h1 {
+    color: black;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.titlebox h1::after {
+    content: "";
+    width: 10px;
+    height: 3px;
+    background: red;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.titlebox h1::before {
+    content: "";
+    width: 58px;
+    height: 3px;
+    background: rgb(5, 255, 46);
+    position: absolute;
+    left: 53%;
+    top: 98%;
+    transform: translate(50%, 50%);
+}
+
+.titlebox h1::after {
+    content: "";
+    width: 58px;
+    height: 3px;
+    background: rgb(5, 255, 46);
+    position: absolute;
+    left: 31%;
+    top: 97%;
+    transform: translate(50%, 50%);
+}
+
+.borde {
+    background:#998888;
+    width: 35px;
+    position: absolute;
+    height: 3px;
+    left: 46%;
+    bottom: -3%;
+    transform: translate(50%, 50%);
+}
+
+.single-items {
+    margin-top: 60px !important;
+    width: 30%;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+
+.icon {
+    float: left;
+    width: 84px;
+    text-align: center;
+    height: 138px;
+    border-right: 1px solid rgb(122, 119, 119);
+    margin-top: 10px;
+    margin-right: 17px;
+}
+
+.icon i {
+    color: #30cc30;
+    font-size: 34px;
+    margin-top: 51px;
+    vertical-align: center;
+}
+
+.single-boxtitle p {
+    color: #ccc;
+    font-size: 14px;
+    padding-top: 12px;
+}
+
+.single-boxtitle h4 {
+    text-transform: capitalize;
+    font-size: 27px;
+}
+
+
+.owl-dot span {
+    width: 34px !important;
+    height: 4px !important;
+    margin: 30px 7px!important;
+    background: #30cc30 !important;
+    display: block;
+    transition: opacity .2s ease;
+    border-radius: 0% !important;
+
+}
+
+.owl-dot {
+    outline: none !important;
+}
+
+.owl-dot:hover span {
+    background: rgba(0, 0, 0, 0.623) !important;
+    width: 40px !important;
+}
